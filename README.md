@@ -11,7 +11,7 @@ The results from the analysis are as follows:
 ### Linear Regression to Predict MPG
 Multiple linear regression was used to test a linear model that can be used to predict the mpg. The regression was carried out using metrics that vary between the different prototypes. The metrics studied were vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance. 
 
-![Linear Regression Summary](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Linear Regression.PNG)
+![Linear Regression Summary](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Linear%20Regression.PNG)
 
 Looking at the overall fit, we can see that p-value is less than 0.001 which suggests that there exists a significant relationship. This is supported by a co-efficient of determination is 0.7149.
 
@@ -24,13 +24,13 @@ Summary statistics mean, median, variance and SD were calculated for the suspens
 
 **Total Summary**
 
-![Total Summary](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Total Summary.PNG)
+![Total Summary](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Total%20Summary.PNG)
 
 The mean and median values are similar suggesting that the data is normally distributed. The overall variance is 62.29 PSI which is less than the limit of 100 PSI, so it meets the design requirement but the variance is considerably high suggesting that there is not sufficient consistency in production. Also, since the values are normally distributed, we can infer that 68% of the values lie between 1506.67 and 1490.89 and 95% of the values lie between 1514.56 and 1482.99.
 
 **Lot Summary**
 
-![Lot Summary](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Lot Summary.PNG)
+![Lot Summary](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Lot%20Summary.PNG)
 
 The mean and median values are similar for each lot suggesting that the data is normally distributed. In terms of variance, Lots 1 and 2 meet the limit of 100PSI, whereas Lot3 fails to meet the specification limit. Also, the variance is significantly lower for the other two lots, with Lot1 having the lowest variance suggesting good consistency within the lots. On the other hand, the variance for Lot3 is quite high at 170.28PSI indicating a lack of consistency. This requires investigation into Lot3's production. Also, more datapoints are required to determine if this is an outlier or an underlying issue.
 
@@ -39,25 +39,25 @@ One-sample t-test was carried out between the overall PSI, PSI for each lot and 
 
 **Overall t-test Statistic**
 
-![Overall ttest](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Overall ttest.PNG)
+![Overall ttest](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Overall%20ttest.PNG)
 
 From the results, for a significance level of 0.05, we can see that the p-value is higher than that which implies that we have failed to reject the null hypothesis. So there is **no statistical difference** between the observed sample mean and the presumed population mean.
 
 **Lot1 t-test Statistic**
 
-![Lot1 ttest](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Lot1 ttest.PNG)
+![Lot1 ttest](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Lot1%20ttest.PNG)
 
 The p-value if 1 is well above the significance level of 0.05. Therefore, there is **no statistical difference** between the observed sample mean and the presumed population mean. The sample is a good representation of the population.
 
 **Lot2 t-test Statistic**
 
-![Lot2 ttest](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Lot2 ttest.PNG)
+![Lot2 ttest](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Lot2%20ttest.PNG)
 
 The p-value if 0.6 is well above the significance level of 0.05. Therefore, there is **no statistical difference** between the observed sample mean and the presumed population mean. This sample is also a good representation of the population.
 
 **Lot3 t-test Statistic**
 
-![Lot3 ttest](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Lot3 ttest.PNG)
+![Lot3 ttest](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Lot3%20ttest.PNG)
 
 The p-value if 0.04 is below the significance level of 0.05. Therefore, there is **a statistical difference** between the observed sample mean and the presumed population mean. Since there is a difference, this sample cannot be considered a good representation of the population.
 
@@ -73,7 +73,7 @@ To compare performance of MechaCar vehicles against that of competitors, we can 
 
 **Data to be collected:** 
 - Identify vehicle(s) of interest [Sedan class, 4 cylinders and 1.5 litres engine, runs on gas, manufactured in 2015]
-- Identify vehicle(s) from manufacturer that meet the requirement
-- Gather city fuel efficiency data for atleast 10 cars that have travelled 5000 to 5500 miles, per model
+- Identify vehicle(s) from manufacturer that meet the same requirement
+- Gather city fuel efficiency data for atleast 20 cars that have travelled 5000 to 5500 miles, per model
 
 
