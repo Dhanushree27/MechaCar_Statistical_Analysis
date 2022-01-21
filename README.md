@@ -30,7 +30,7 @@ The mean and median values are similar suggesting that the data is normally dist
 
 **Lot Summary**
 
-![Lot Summary](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Lot%20Summary.PNG)
+![Lot Summary](https://github.com/Dhanushree27/MechaCar_Statistical_Analysis/blob/main/images/Lot%20summary.PNG)
 
 The mean and median values are similar for each lot suggesting that the data is normally distributed. In terms of variance, Lots 1 and 2 meet the limit of 100PSI, whereas Lot3 fails to meet the specification limit. Also, the variance is significantly lower for the other two lots, with Lot1 having the lowest variance suggesting good consistency within the lots. On the other hand, the variance for Lot3 is quite high at 170.28PSI indicating a lack of consistency. This requires investigation into Lot3's production. Also, more datapoints are required to determine if this is an outlier or an underlying issue.
 
