@@ -76,4 +76,4 @@ To compare performance of MechaCar vehicles against that of competitors, we can 
 - Identify vehicle(s) from manufacturer that meet the same requirement
 - Gather city fuel efficiency data for atleast 20 cars that have travelled 5000 to 5500 miles, per model
 
-
+The data can also be visualized using a boxplot comparing the data distribution for each model
